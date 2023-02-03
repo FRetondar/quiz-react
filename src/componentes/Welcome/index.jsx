@@ -9,7 +9,7 @@ const Welcome = () => {
     
     return (
 
-    <div className="welcome">
+    <div id="welcome">
         <h2>Seja Bem-Vindo!</h2>
         <p>Clique no botão abaixo para começar:</p>
         <button onClick={() => dispatch({type: "CHANGE_STATE"})}>Iniciar</button>
